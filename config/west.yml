@@ -1,12 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      #url-base: https://github.com/zmkfirmware
-      url-base: https://github.com/LyleScott
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: kyria_nicenano2_led
+      revision: main
       import: app/west.yml
   self:
     path: config
