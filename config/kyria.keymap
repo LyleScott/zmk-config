@@ -23,7 +23,7 @@
 			bindings = <
 	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSLH
 	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
+	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LCTRL &kp LSHFT        &kp RSHFT &kp RSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
 	              &kp K_MUTE &kp RET &kp LCMD &kp DEL &kp SPACE        &kp SPACE &kp TAB   &kp BSPC &kp DEL &kp RET
 			>;
 
@@ -32,14 +32,14 @@
 
         f_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |  ESC  |  F1 |  F2 |  F3  |  F4  |  F5  |                                            |  F6  | F7  |  F8  |  F9  |  F10  | F11 |
-// |  TAB  |  0  |  1  |  2   |  3   |  4   |  5   |                                            |  6  |  7   |  8   |  9    |  0  |
-// | SHIFT |     |     |      |      |      |      |       |               |    |        |      |     |      |      |       |     |
+// |  ESC  | F1   | F2   |  F3  |  F4  |  F5  |                                            |  F6  | F7  |  F8  |  F9  |  F10  | F11 |
+// |  TAB  | 0    | 1    |  2   |  3   |  4   |  5   |                                            |  6  |  7   |  8   |  9    |  0  |
+// | SHIFT | LBKT | RBKT |      |      |      |      |       |               |    |        |      |     |      |      |       |     |
 //                   | MUTE | LCMD  | RET  |  DEL  |  SPACE  |                  | SPACE  | DEL | TAB | BSPC | RCMD |
             bindings = <
     &kp ESC   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                                           &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
     &kp TAB   &kp 0  &kp 1  &kp 2  &kp 3  &kp 4                                            &kp 5  &kp 6  &kp 7  &kp 8  &kp 9   &kp 0
-    &kp LSHFT &trans &trans &trans &trans &trans &kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT &trans &trans &trans &trans &trans &trans
+    &kp LSHFT &trans &trans &trans &trans &trans &kp LCTRL &kp LSHFT        &kp RSHFT &kp RSHFT &trans &trans &trans &trans &trans RCTRL
 	              &kp K_MUTE &kp RET &kp LCMD &kp DEL &kp SPACE        &kp SPACE &kp TAB   &kp BSPC &kp DEL &kp RET
             >;
 
