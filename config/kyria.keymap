@@ -40,7 +40,7 @@
             bindings = <
     &kp ESC   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                                           &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
     &kp TAB   &kp 0  &kp 1  &kp 2  &kp 3  &kp 4                                            &kp 5  &kp 6  &kp 7  &kp 8  &kp 9   &kp 0
-    &kp LSHFT &kp LBKT &kp RBKT &trans &trans &trans &kp LCTRL &kp LSHFT        &kp RSHFT &kp RSHFT &trans &trans &trans &trans &trans RCTRL
+    &kp LSHFT &kp LBKT &kp RBKT &trans &trans &trans &kp LCTRL &kp LSHFT        &kp RSHFT &kp RSHFT &trans &trans &trans &trans &trans &kp RCTRL
 	              &kp K_MUTE &kp RET &kp LCMD &kp DEL &kp SPACE        &kp SPACE &kp TAB   &kp BSPC &kp DEL &kp RET
             >;
 
