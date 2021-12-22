@@ -17,16 +17,16 @@
         compatible = "zmk,keymap";
 
         default_layer {
-// -------------------------------------------------------------------------------------------------------------------------------
-// |  ESC   |  Q  |  W  |  E  |  R    |  T   |                                       |  Y   |  U   |  I   |  O   |   P   |   \   |
-// |  TAB   |  A  |  S  |  D  |  F    |  G   |                                       |  H   |  J   |  K   |  L   |   ;   |   "   |
-// | LSHIFT |  Z  |  X  |  C  |  V    |  B   | DEL  | LSHIFT |     | RSHIFT | RSHIFT |  N   |  M   |  ,   |  .   |   /   | RCTRL |
-//                     | ???  | LCTRL | LCMD | BSPC |   ESC  |     | SPACE  | TAB    |  =   |  `   | ???  |
+// ----------------------------------------------------------------------------------------------------------------
+// |  ESC   |  Q  |  W  |  E  |  R   |  T   |                                |  Y  |  U  |  I  |  O  |  P  |  \   |
+// |  TAB   |  A  |  S  |  D  |  F   |  G   |                                |  H  |  J  |  K  |  L  |  ;  |  "   |
+// | LSHIFT |  Z  |  X  |  C  |  V   |  B   | DEL | LSFT |     | TAB  | RSFT |  N  |  M  |  ,  |  .  |  /  | RCTL |
+//                     | ???  | LCMD | LCTL | BSP | SPAC |     | SPAC | TAB  |  =  |  `  | ??  |
             bindings = <
     &kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSLH
     &kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp DQT
-    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp DEL &kp LSHFT        &kp RSHFT &kp RSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
-                    &kp PG_DN &kp LCTRL &kp LCMD &kp BSPC &kp SPACE      &kp SPACE &kp TAB   &kp EQUAL &kp GRAVE &kp RET
+    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp DEL &kp LSHFT        &kp TAB &kp RSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
+                    &kp PG_DN &kp LCMD &kp LCTL &kp BSPC &kp SPACE      &kp SPACE &kp TAB   &kp EQUAL &kp GRAVE &kp RET
             >;
 
             //sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
