@@ -26,7 +26,8 @@
 	                 &kp TILD &kp LCTRL &kp LCMD &trans &kp SPACE    &kp SPACE &kp TAB &kp EQUAL &kp GRAVE &kp DOLLAR
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			//sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp LEFT DOWN &inc_dec_kp RIGHT UP>;
 		};
 	};
 };
